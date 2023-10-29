@@ -1,0 +1,36 @@
+.section-navbar {
+    padding: 32px 0px;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    align-items: center;
+    justify-content: space-between;
+
+    &-brand {
+        max-height: 24px;
+        width: auto;
+        margin: 0;
+        padding: 0;
+
+        img {
+            vertical-align: baseline;
+        }
+    }
+    &-menu {
+        list-style-type: none;
+        list-style-position: inside;
+        margin: 0;
+        padding: 0;
+
+        display: inline-flex;
+        column-gap: 32px;
+        &-link {
+            a {
+                color: $secondary;
+            }
+        }
+    }
+}

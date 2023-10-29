@@ -1,0 +1,11 @@
+.section-footer {
+    margin-top: auto;
+    padding: 32px 0px;
+    background-color: $neutral-500;
+}
+
+.footer {
+    color: $purple-light-subtler;
+    text-align: center;
+    @extend %fs-md-regular;
+}

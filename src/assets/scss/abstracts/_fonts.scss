@@ -1,0 +1,11 @@
+@include font-face('Sofia Pro', 'SofiaPro-Bold', 700);
+@include font-face('Sofia Pro', 'SofiaPro-BoldItalic', 700, italic);
+
+@include font-face('Sofia Pro', 'SofiaPro-SemiBold', 600);
+@include font-face('Sofia Pro', 'SofiaPro-SemiBoldItalic', 600, italic);
+
+@include font-face('Sofia Pro', 'SofiaPro-Medium', 500);
+@include font-face('Sofia Pro', 'SofiaPro-MediumItalic', 500, italic);
+
+@include font-face('Sofia Pro', 'SofiaPro-Regular');
+@include font-face('Sofia Pro', 'SofiaPro-Italic', 400, italic);
