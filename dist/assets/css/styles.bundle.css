@@ -684,12 +684,24 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   letter-spacing: -0.01em;
 }
 
-.footer, .btn-primary {
+.footer, .section-about-me .section-description p, .btn-primary, .section-about-me .section-subtitle {
   font-family: "Sofia Pro", sans-serif;
   font-style: normal;
 }
 
+.section-about-me .section-subtitle {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 32px;
+}
+
 .btn-primary {
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.section-about-me .section-description p {
   font-size: 1.25rem;
   font-weight: 500;
   line-height: 28px;
@@ -14811,6 +14823,40 @@ textarea.form-control-lg {
   text-align: center;
 }
 
+.section-about-me {
+  padding: 100px 0px;
+}
+.section-about-me .section-subtitle {
+  color: #D6D1FA;
+}
+.section-about-me .section-title > * {
+  display: inline;
+}
+.section-about-me .section-title h1, .section-about-me .section-title .h1 {
+  color: #717184;
+}
+.section-about-me .section-title h2, .section-about-me .section-title .h2 {
+  color: #9498AF;
+}
+.section-about-me .section-description {
+  margin-top: 24px;
+}
+.section-about-me .section-description p {
+  max-width: 70%;
+}
+.section-about-me .section-description img {
+  width: 200px;
+  height: 100px;
+  border-radius: 50px 0px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.section-about-me .section-description__about-me {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 .btn-primary {
   color: #717184;
   padding: 10px 24px 12px 24px;
@@ -14828,6 +14874,10 @@ section, .section {
   max-width: 100%;
   margin: 0px;
   padding: 0px 80px;
+}
+
+.container-inner {
+  padding: 0px 160px;
 }
 
 /*# sourceMappingURL=styles.bundle.css.map*/
