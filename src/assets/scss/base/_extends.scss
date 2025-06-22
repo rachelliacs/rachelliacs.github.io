@@ -1,0 +1,121 @@
+%heading {
+  margin-top: 0; // 1
+  margin-bottom: $headings-margin-bottom;
+  font-family: $headings-font-family;
+  font-style: $headings-font-style;
+  font-weight: $headings-font-weight;
+  color: $headings-color;
+  letter-spacing: -0.01em;
+  display: inline;
+  margin-right: toRem(8);
+}
+
+%font-style {
+  font-family: $font-family-base;
+  font-style: normal;
+}
+
+%fs-xl-bold {
+  @extend %font-style;
+  font-size: $font-size-xl;
+  font-weight: $font-weight-bold;
+  line-height: 32px;
+}
+
+%fs-xl-medium {
+  @extend %font-style;
+  font-size: $font-size-xl;
+  font-weight: $font-weight-semibold;
+  line-height: 32px;
+}
+
+%fs-xl-regular {
+  @extend %font-style;
+  font-size: $font-size-xl;
+  font-weight: $font-weight-medium;
+  line-height: 32px;
+}
+
+%fs-lg-bold {
+  @extend %font-style;
+  font-size: $font-size-lg;
+  font-weight: $font-weight-bold;
+  line-height: 28px;
+}
+
+%fs-lg-medium {
+  @extend %font-style;
+  font-size: $font-size-lg;
+  font-weight: $font-weight-semibold;
+  line-height: 28px;
+}
+
+%fs-lg-regular {
+  @extend %font-style;
+  font-size: $font-size-lg;
+  font-weight: $font-weight-medium;
+  line-height: 28px;
+}
+
+%fs-md-bold {
+  @extend %font-style;
+  font-size: $font-size-base;
+  font-weight: $font-weight-bold;
+  line-height: 24px;
+}
+
+%fs-md-medium {
+  @extend %font-style;
+  font-size: $font-size-base;
+  font-weight: $font-weight-semibold;
+  line-height: 24px;
+}
+
+%fs-md-regular {
+  @extend %font-style;
+  font-size: $font-size-base;
+  font-weight: $font-weight-medium;
+  line-height: 24px;
+}
+
+%fs-sm-bold {
+  @extend %font-style;
+  font-size: $font-size-sm;
+  font-weight: $font-weight-bold;
+  line-height: 16px;
+}
+
+%fs-sm-medium {
+  @extend %font-style;
+  font-size: $font-size-sm;
+  font-weight: $font-weight-semibold;
+  line-height: 16px;
+}
+
+%fs-sm-regular {
+  @extend %font-style;
+  font-size: $font-size-sm;
+  font-weight: $font-weight-medium;
+  line-height: 16px;
+}
+
+%fs-xs-bold {
+  @extend %font-style;
+  font-size: 12px;
+  font-weight: $font-weight-bold;
+  line-height: 14px;
+}
+
+%fs-xs-medium {
+  @extend %font-style;
+  font-size: 12px;
+  font-weight: $font-weight-semibold;
+  line-height: 14px;
+}
+
+%fs-xs-regular {
+  @extend %font-style;
+  font-size: 12px;
+  font-weight: $font-weight-medium;
+  line-height: 14px;
+}

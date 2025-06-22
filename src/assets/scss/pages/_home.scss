@@ -1,0 +1,148 @@
+// For global styling on all home pages
+.section-about {
+    .section-subtitle {
+        @extend %fs-xl-medium;
+        color: $color-primary;
+    }
+    .section-title {
+        white-space: normal;
+
+        * > & {
+            display: inline;
+        }
+
+        h1 {
+            color: $color-neutral-500;
+        }
+        h2 {
+            color: $color-secondary;
+        }
+    }
+    .section-description {
+        margin-top: 24px;
+        p {
+            @extend %fs-lg-regular;
+            max-width: 70%;
+        }
+        img {
+            width: 200px;
+            height: 100px;
+            border-radius: 50px 0px;
+            object-fit: cover;
+        }
+    }
+    .section-description__about {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+.section-title {
+    display: flex;
+    align-items: baseline;
+    white-space: nowrap;
+
+    h2 {
+        color: $color-neutral-500;
+    }
+    h3 {
+        color: $color-secondary;
+    }
+}
+
+.section-title-decoration {
+    align-self: center;
+    margin-top: 24px;
+    margin-left: 24px;
+
+    height: 1px;
+    width: 100%;
+    background-color: $color-primary;
+}
+
+.journeys {
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+}
+
+.journey-item {
+    display: flex;
+    align-items: flex-start;
+    column-gap: 24px;
+}
+
+.journey-time {
+    flex: 0 0 120px;
+    @extend %fs-lg-bold;
+    color: $color-primary;
+}
+
+.journey-desc {
+    flex: 1;
+    color: $color-grey;
+
+    a {
+        color: $color-neutral-500;
+    }
+}
+
+.section-works {
+    padding: 80px 0px 150px 0px !important;
+}
+
+.works {
+    display: flex;
+    flex-direction: column;
+    row-gap: 48px;
+}
+
+.work-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.work-image {
+    width: 46%;
+    height: 300px;
+    border-radius: 50px 0;
+
+    object-fit: cover;
+
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.work-details {
+    flex: 0 0 42%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+
+    .section-subtitle {
+        @extend %fs-md-bold;
+        color: $color-primary;
+    }
+
+    .section-title {
+        color: $color-neutral-500;
+        display: flex;
+        align-items: center;
+
+        span {
+            margin-left: 16px;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            i {
+                color: currentColor;
+            }
+        }
+    }
+}

@@ -1,0 +1,40 @@
+.cta-content {
+    position: fixed;
+    bottom: 150px;
+
+    z-index: 10;
+
+    &-left {
+        left: 80px;
+    }
+
+    &-right {
+        transform: rotate(90deg) translateX(0%) translateY(25%);
+        transform-origin: right;
+        right: 80px;
+    }
+
+    &::before {
+        content: " ";
+        width: 2px;
+        height: 20px;
+        color: $color-neutral-500;
+    }
+}
+
+.cta-links {
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+}
+
+.cta-link {
+    width: 32px;
+    height: 32px;
+    // background-color: $color-neutral-500;
+}
+
+.cta-mail {
+    // color: $color-neutral-500;
+    @extend %fs-xl-medium;
+}

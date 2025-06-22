@@ -1,0 +1,110 @@
+@font-face {
+    font-family: 'Sofia Pro';
+    src: url('SofiaProMedium-Italic.eot');
+    src: url('SofiaProMedium-Italic.eot?#iefix') format('embedded-opentype'),
+        url('SofiaProMedium-Italic.ttf') format('truetype'),
+        url('SofiaProMedium-Italic.svg#SofiaProMedium-Italic') format('svg');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sofia Pro';
+    src: url('SofiaProMedium.eot');
+    src: url('SofiaProMedium.eot?#iefix') format('embedded-opentype'),
+        url('SofiaProMedium.ttf') format('truetype'),
+        url('SofiaProMedium.svg#SofiaProMedium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sofia Pro Extra';
+    src: url('SofiaProExtraLight.eot');
+    src: url('SofiaProExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('SofiaProExtraLight.ttf') format('truetype'),
+        url('SofiaProExtraLight.svg#SofiaProExtraLight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sofia Pro';
+    src: url('SofiaProLight.eot');
+    src: url('SofiaProLight.eot?#iefix') format('embedded-opentype'),
+        url('SofiaProLight.ttf') format('truetype'),
+        url('SofiaProLight.svg#SofiaProLight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sofia Pro';
+    src: url('SofiaProLight-Italic.eot');
+    src: url('SofiaProLight-Italic.eot?#iefix') format('embedded-opentype'),
+        url('SofiaProLight-Italic.ttf') format('truetype'),
+        url('SofiaProLight-Italic.svg#SofiaProLight-Italic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sofia Pro Extra';
+    src: url('SofiaProExtraLight-Italic.eot');
+    src: url('SofiaProExtraLight-Italic.eot?#iefix') format('embedded-opentype'),
+        url('SofiaProExtraLight-Italic.ttf') format('truetype'),
+        url('SofiaProExtraLight-Italic.svg#SofiaProExtraLight-Italic') format('svg');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sofia Pro Semi';
+    src: url('SofiaProSemiBold-Italic.eot');
+    src: url('SofiaProSemiBold-Italic.eot?#iefix') format('embedded-opentype'),
+        url('SofiaProSemiBold-Italic.ttf') format('truetype'),
+        url('SofiaProSemiBold-Italic.svg#SofiaProSemiBold-Italic') format('svg');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sofia Pro Ultra';
+    src: url('SofiaProUltraLight.eot');
+    src: url('SofiaProUltraLight.eot?#iefix') format('embedded-opentype'),
+        url('SofiaProUltraLight.ttf') format('truetype'),
+        url('SofiaProUltraLight.svg#SofiaProUltraLight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sofia Pro Semi';
+    src: url('SofiaProSemiBold.eot');
+    src: url('SofiaProSemiBold.eot?#iefix') format('embedded-opentype'),
+        url('SofiaProSemiBold.ttf') format('truetype'),
+        url('SofiaProSemiBold.svg#SofiaProSemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sofia Pro Ultra';
+    src: url('SofiaProUltraLight-Italic.eot');
+    src: url('SofiaProUltraLight-Italic.eot?#iefix') format('embedded-opentype'),
+        url('SofiaProUltraLight-Italic.ttf') format('truetype'),
+        url('SofiaProUltraLight-Italic.svg#SofiaProUltraLight-Italic') format('svg');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+

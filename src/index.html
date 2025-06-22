@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!--
+Website Name: Rachel's Portfolio 
+Author: rachelliacs
+License: UNLICENSED
+-->
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rachel's | Portfolio</title>
+    <link rel="shortcut icon" href="assets/media/images/favicon.svg" />
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+
+    <meta property="og:title" content="" />
+    <meta property="og:description" content="" />
+
+    <!-- Start::Global Styles (used by all pages) -->
+    <link href="assets/css/styles.bundle.css" rel="stylesheet" type="text/css" />
+    <!-- Option 1: Include in HTML -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+    <!-- End::Global Styles -->
+  </head>
+
+  <body>
+    <!-- Start::Header Section -->
+    {{> partials/layouts/header.html }}
+    <!-- End::Header Section -->
+
+    <!-- Start::Page Wrap -->
+    <div class="page-wrap">
+      <!-- Start::CTA Section -->
+      {{> partials/components/cta.html }}
+      <!-- End::CTA Section -->
+
+      <!-- Start::About Me Section -->
+      <section class="section-about" id="section-about">
+        <div class="container">
+          <div class="container-inner">
+            <p class="section-subtitle">Hi! my name is,</p>
+            <div class="section-title">
+              <h1>Rachel.</h1>
+              <h2>a passionate front-end web developer</h2>
+            </div>
+            <div class="section-description section-description__about">
+              <p>Currently in my senior year of high school. I'm on a journey to explore the world of web development, and I'm excited to share my work with you.</p>
+              <!-- <img src="assets/media/images/rachelliacs-profile.jpeg" alt="rachel" class="about-me-img" /> -->
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End::About Me Section -->
+
+      <!-- Start::My Journey Section -->
+      <section class="section section-journey" id="section-journey">
+        <div class="container">
+          <div class="container-inner">
+            <div class="section-title">
+              <h3>My</h3>
+              <h2>Learning</h2>
+              <h3>Journey</h3>
+              <div class="section-title-decoration"></div>
+            </div>
+            <div class="section-content">
+              <div class="journeys">
+                <div class="journey-item">
+                  <div class="journey-time">2021 - 2022</div>
+                  <div class="journey-desc">Throughout my educational journey in high school, I've learning key languages and technologies such as <a href="#">HTML</a>, <a href="#">CSS</a>, <a href="#">PHP</a> and <a href="#">JavaScript</a>.</div>
+                </div>
+                <div class="journey-item">
+                  <div class="journey-time">2022 - 2023</div>
+                  <div class="journey-desc">During a remarkable 10-month internship at Illiyin Studio, I had the opportunity to gain much more knowledge and put my knowledge into action. There I do also learned how to create a website using platform such as <a href="#">Webflow</a> to build a visually stunning template website and <a href="#">WordPress</a>, with WordPress I focus on learning on WordPress Elementor and a litle bit of custom theme development.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End::My Journey Section -->
+
+      <!-- Start::My Work Section -->
+      <section class="section section-works" id="section-works">
+        <div class="container">
+          <div class="container-inner">
+            <div class="section-title">
+              <h3>My Body of</h3>
+              <h2>Work</h2>
+              <div class="section-title-decoration"></div>
+            </div>
+            <div class="section-content">
+              <div class="works">
+                <div class="work-item">
+                  <img src="assets/media/images/IlliyinStudio-Cryptozy.png" alt="Work Image" class="work-image" />
+                  <div class="work-details">
+                    <div class="section-subtitle">Project during my internship at Illiyin Studio</div>
+                    <a href="https://cryptozy.webflow.io/">
+                      <h3 class="section-title">
+                        Cryptozy
+                        <span><i class="bi bi-box-arrow-up-right h5"></i></span>
+                      </h3>
+                    </a>
+                    <p class="section-desc">This project was built using Webflow. I contributed about 50% of the effort while being guided by my mentor.</p>
+                  </div>
+                </div>
+                <div class="work-item">
+                  <div class="work-details">
+                    <div class="section-subtitle">Project during my internship at Illiyin Studio</div>
+                    <a href="https://showcasy.webflow.io/">
+                      <h3 class="section-title">
+                        Showcasy
+                        <span><i class="bi bi-box-arrow-up-right h5"></i></span>
+                      </h3>
+                    </a>
+                    <p class="section-desc">This project was built using Webflow. My mentor provided me with the opportunity to handle this project all by myself.</p>
+                  </div>
+                  <img src="assets/media/images/IlliyinStudio-Showcasy.png" alt="Work Image" class="work-image" />
+                </div>
+                <div class="work-item">
+                  <img src="assets/media/images/IlliyinStudio-1SmartMedia.png" alt="Work Image" class="work-image" />
+                  <div class="work-details">
+                    <div class="section-subtitle">Project during my internship at Illiyin Studio</div>
+                    <a href="http://13.41.91.245/">
+                      <h3 class="section-title">
+                        1SmartMedia
+                        <span><i class="bi bi-box-arrow-up-right h5"></i></span>
+                      </h3>
+                    </a>
+                    <p class="section-desc">This project was developed using WordPress and Elementor. I actively contributed to both the front-end and back-end, while receiving valuable guidance throughout the process.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End::My Work Section -->
+
+      <!-- Start::Contact Section -->
+      <!-- <section class="section section-contact" id="section-contact">
+        <div class="container">
+          <div class="container-inner"></div>
+        </div>
+      </section> -->
+      <!-- End::Contact Section -->
+    </div>
+    <!-- End::Page Wrap -->
+
+    <!-- Start::Footer -->
+    {{> partials/layouts/footer.html }}
+    <!-- End::Footer -->
+
+    <!-- Start::Global Bundle Scripts (used by all pages) -->
+    <script src="assets/js/scripts.bundle.js"></script>
+    <!-- End::Global Bundle Scripts -->
+  </body>
+</html>

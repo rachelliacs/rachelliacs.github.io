@@ -1,0 +1,8 @@
+.btn-primary {
+    @extend %fs-md-medium;
+    color: $color-neutral-500;
+    padding: 8px 16px 10px 16px;
+    border-radius: 8px;
+    border: 2px solid $color-secondary;
+    background-color: $color-blue-light-subtler;
+}
