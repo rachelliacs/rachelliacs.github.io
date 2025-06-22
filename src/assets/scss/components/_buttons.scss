@@ -5,4 +5,13 @@
     border-radius: 8px;
     border: 2px solid $color-secondary;
     background-color: $color-blue-light-subtler;
+
+    &-small {
+        @extend %fs-sm-medium;
+        color: $color-neutral-500;
+        padding: 4px 12px 5px 12px;
+        border-radius: 8px;
+        border: 2px solid $body-bg;
+        background-color: $body-bg;
+    }
 }

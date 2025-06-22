@@ -1,5 +1,9 @@
 .section-navbar {
     padding: 24px 0px;
+    position: sticky;
+    inset: 0% auto auto;
+    z-index: 1000;
+    background-color: $body-bg;
 }
 
 .navbar {
